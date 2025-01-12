@@ -12,6 +12,7 @@ Bash
 ```
 git clone https://github.com/hugoTheVoidBoy/CPU_Processor_Sim
 cd CPU_Processor_Sim
-./test.bash
+gcc -o main interrupts.c
+./main trace.txt
  
 ```
