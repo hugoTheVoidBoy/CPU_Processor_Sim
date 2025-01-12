@@ -9,5 +9,7 @@ From here, all the CPU processes will be recorded into execution_prompt.txt and 
 
 Bash
 ```
+$ git clone https://github.com/hugoTheVoidBoy/CPU_Processor_Sim
+$ cd CPU_Processor_Sim
 $ ./test.bash
 ```
