@@ -13,4 +13,5 @@ Bash
 git clone https://github.com/hugoTheVoidBoy/CPU_Processor_Sim
 cd CPU_Processor_Sim
 ./test.bash
+ 
 ```
