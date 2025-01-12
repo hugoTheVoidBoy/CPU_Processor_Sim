@@ -1,0 +1,4 @@
+FORK, 10
+EXEC program1, 50
+FORK, 15
+EXEC program2, 88

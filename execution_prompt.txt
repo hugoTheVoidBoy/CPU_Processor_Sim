@@ -1,0 +1,33 @@
+0, 1, switch to kernel mode
+1, 3, context saved
+4, 1, find vector 2 in memory position 0x4
+5, 1, load address 0X0695 into the PC
+6, 6, FORK: copy parent PCB to child PCB
+12, 4, scheduler called
+16, 1, IRET
+17, 1, switch to kernel mode
+18, 3, context saved
+21, 1, find vector 3 in memory position 0x6
+22, 1, load address 0X0695 into the PC
+23, 22, EXEC: load program1 of size 10Mb
+45, 18, found partition 4 with 10 Mb of space
+63, 6, partition 4 marked as occupied
+69, 2, updating PCB with new information
+71, 2, scheduler called
+73, 1, IRET
+74, 100, CPU execution
+174, 1, switch to kernel mode
+175, 3, context saved
+178, 1, find vector 2 in memory position 0x4
+179, 1, load address 0X0695 into the PC
+180, 6, FORK: copy parent PCB to child PCB
+186, 9, scheduler called
+195, 1, IRET
+196, 1, switch to kernel mode
+197, 3, context saved
+200, 1, find vector 3 in memory position 0x6
+201, 1, load address 0X0695 into the PC
+202, 25, EXEC: load program2 of size 55Mb
+227, 63, No available partition
+290, 2, scheduler called
+292, 1, IRET
