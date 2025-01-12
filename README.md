@@ -1,3 +1,4 @@
+**This program only runs on Linux/Unix**
 This is the first project I did on Linux. Ubuntu and Linux VSCode were implemented by WSL to easily access Linux coding on my laptop.
 
 This project simulates Unix OS when a system call (software interrupt) happens. Inputting bash commands or running test.bash in the prompt will compile the program to read the trace.txt, which involves forking new child processes or executing them. 
@@ -9,7 +10,7 @@ From here, all the CPU processes will be recorded into execution_prompt.txt and 
 
 Bash
 ```
-$ git clone https://github.com/hugoTheVoidBoy/CPU_Processor_Sim
-$ cd CPU_Processor_Sim
-$ ./test.bash
+git clone https://github.com/hugoTheVoidBoy/CPU_Processor_Sim
+cd CPU_Processor_Sim
+./test.bash
 ```
